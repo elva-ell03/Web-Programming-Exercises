@@ -6,7 +6,7 @@
 		for($i=1;$i<=$baris;$i++)
 			{echo "<tr>";
 		for ($j=1;$j<=$kolom;$j++)
-				if ( $no++ %2==0){echo "<td style=color:white;background:red;> $no </td>";}
+				if ( $no++ %2==1){echo "<td style=color:white;background:red;> $no </td>";}
 				else {echo "<td style=color:red;> $no </td>";}
 			echo "</tr>";}
 	echo "</table>";
